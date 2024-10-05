@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Yoga",
+      "slug": "beginner-yoga",
+      "description": "Learn the basics of yoga with this comprehensive course designed for beginners.",
+      "price": 79.99,
+      "instructor": "Sarah Johnson",
+      "isFeatured": true,
+      "image": "/courses/yoga.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Strength Training Fundamentals",
+      "slug": "strength-training-fundamentals",
+      "description": "Start building your strength with foundational exercises and routines.",
+      "price": 89.99,
+      "instructor": "James Smith",
+      "isFeatured": false,
+      "image": "/courses/strength-training.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Advanced Pilates",
+      "slug": "advanced-pilates",
+      "description": "Enhance your Pilates practice with advanced techniques and exercises.",
+      "price": 99.99,
+      "instructor": "Emily Roberts",
+      "isFeatured": true,
+      "image": "/courses/pilates.jpg"
+    },
+    {
+      "id": 4,
+      "title": "HIIT Workouts",
+      "slug": "hiit-workouts",
+      "description": "Get fit with high-intensity interval training workouts designed for all levels.",
+      "price": 69.99,
+      "instructor": "Chris Brown",
+      "isFeatured": false,
+      "image": "/courses/hiit.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Meditation and Mindfulness",
+      "slug": "meditation-and-mindfulness",
+      "description": "Learn to calm your mind and reduce stress through meditation and mindfulness techniques.",
+      "price": 59.99,
+      "instructor": "Laura Lee",
+      "isFeatured": false,
+      "image": "/courses/meditation.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Boxing for Beginners",
+      "slug": "boxing-for-beginners",
+      "description": "Discover the fundamentals of boxing in this beginner-friendly course.",
+      "price": 89.99,
+      "instructor": "Mike Tyson",
+      "isFeatured": true,
+      "image": "/courses/boxing.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Marathon Training",
+      "slug": "marathon-training",
+      "description": "Prepare for your first marathon with expert training plans and tips.",
+      "price": 129.99,
+      "instructor": "Jessica Davis",
+      "isFeatured": false,
+      "image": "/courses/marathon.jpg"
+    },
+    {
+      "id": 8,
+      "title": "CrossFit Basics",
+      "slug": "crossfit-basics",
+      "description": "Learn the principles of CrossFit and build your fitness with functional exercises.",
+      "price": 99.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/crossfit.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Tai Chi for Balance",
+      "slug": "tai-chi-for-balance",
+      "description": "Improve your balance and flexibility through the ancient art of Tai Chi.",
+      "price": 79.99,
+      "instructor": "Grace Chen",
+      "isFeatured": false,
+      "image": "/courses/tai-chi.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Bodyweight Training",
+      "slug": "bodyweight-training",
+      "description": "Get fit at home with effective bodyweight exercises that require no equipment.",
+      "price": 49.99,
+      "instructor": "Ethan Scott",
+      "isFeatured": true,
+      "image": "/courses/bodyweight.jpg"
+    }
+  ]
+}
