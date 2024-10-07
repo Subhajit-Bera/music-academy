@@ -1,22 +1,22 @@
 import type { Config } from "tailwindcss";
 
 
-// const colors = require("tailwindcss/colors");
-// const {
-//   default: flattenColorPalette,
-// } = require("tailwindcss/lib/util/flattenColorPalette");
+const colors = require("tailwindcss/colors");
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
 
-// // Plugin to add each Tailwind color as a global CSS variable
-// function addVariablesForColors({ addBase, theme }: any) {
-//   const allColors = flattenColorPalette(theme('colors'));
-//   const newVars = Object.fromEntries(
-//     Object.entries(allColors).map(([key, value]) => [`--${key}`, value])
-//   );
+// Plugin to add each Tailwind color as a global CSS variable
+function addVariablesForColors({ addBase, theme }: any) {
+  const allColors = flattenColorPalette(theme('colors'));
+  const newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, value]) => [`--${key}`, value])
+  );
 
-//   addBase({
-//     ':root': newVars,
-//   });
-// }
+  addBase({
+    ':root': newVars,
+  });
+}
 
 
 const config: Config = {
@@ -49,7 +49,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [addVariablesForColors],
   //addVariablesForColors
 };
 export default config;
